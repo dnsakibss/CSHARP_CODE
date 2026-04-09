@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>polymorphism.Encapsulation</StartupObject>
+    <StartupObject>polymorphism.Single_Array_2</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -48,10 +48,14 @@
   <ItemGroup>
     <Compile Include="Encapsulation.cs" />
     <Compile Include="Inheritence.cs" />
+    <Compile Include="Jagged_ARRAY.cs" />
     <Compile Include="OutputTrace.cs" />
     <Compile Include="OutputTrace2.cs" />
+    <Compile Include="ParamsModifiers.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Single_Array_1.cs" />
+    <Compile Include="Single_Array_2.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
