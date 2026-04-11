@@ -17,7 +17,10 @@ namespace polymorphism
                 new int[] { 100,90,80 }
             };
             Console.WriteLine("Jagged Array Row(s): ");
+
+
             int grandTotal = 0;
+
             for (int r = 0; r < scores.Length; r++)
             {
                 int rowSum = 0;

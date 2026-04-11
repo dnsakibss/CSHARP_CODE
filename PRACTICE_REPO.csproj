@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>polymorphism.Single_Array_2</StartupObject>
+    <StartupObject>polymorphism.Student_Grading_System_CODE</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -46,8 +46,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Banking_system_CODE_writing.cs" />
     <Compile Include="Encapsulation.cs" />
+    <Compile Include="Hierarchical_inheritence.cs" />
     <Compile Include="Inheritence.cs" />
+    <Compile Include="jaggedArray_Practice.cs" />
     <Compile Include="Jagged_ARRAY.cs" />
     <Compile Include="OutputTrace.cs" />
     <Compile Include="OutputTrace2.cs" />
@@ -56,6 +59,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Single_Array_1.cs" />
     <Compile Include="Single_Array_2.cs" />
+    <Compile Include="Student_Grading_System_CODE.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
