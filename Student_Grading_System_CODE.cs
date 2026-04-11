@@ -49,6 +49,7 @@ namespace polymorphism
             if(marks > 80 && attendence>0.75)
             {
                 Console.WriteLine($"Grade: A");
+                Console.WriteLine("_______________________________");
             }
         }   
 
@@ -72,6 +73,7 @@ namespace polymorphism
             if(marks > 75 && researchScore>80)
             {
                 Console.WriteLine($"Grade: A");
+                Console.WriteLine("_______________________________");
             }
         }   
 
@@ -80,18 +82,34 @@ namespace polymorphism
     {
         static void Main(string[] args)
         {
-            Student_[] st = new Student_[4];
+            Student_[] st = new Student_[5];
             st[0] = new Undergraduate(23523192, "NAZMUS SAKIB SAMI", "CSE", 95, 1);
             st[1] = new Undergraduate(23543513, "KANIJ FATIMA BUSHRA", "CSE", 97, 1);
             st[2] = new Undergraduate(23526232, "KAZI WARISA TABASSUM", "CSE", 98, 0.8);
             st[3]= new Postgraduate(001, "ASIF", "AVIATION", 80, 90);
-
+            st[4] = new Student_(002, "Abdul Huda", "Geography");
+            
             foreach(Student_ sts in st)
             {
                 sts.ShowInfo_();
                 sts.CalculateGrade();
                 Console.WriteLine("__________________________________");
             }
+            //Student_ st1 = new Undergraduate(23523192, "NAZMUS SAKIB SAMI", "CSE", 95, 1);
+            //Student_ st2= new Undergraduate(23543513, "KANIJ FATIMA BUSHRA", "CSE", 97, 1);
+            //Student_ st3 = new Undergraduate(23526232, "KAZI WARISA TABASSUM", "CSE", 98, 0.8);
+            //Student_ st4= new Postgraduate(001, "ASIF", "AVIATION", 80, 90);
+            
+            //st1.ShowInfo_();
+            //st1.CalculateGrade();
+            //st2.ShowInfo_();
+            //st2.CalculateGrade();
+            //st3.ShowInfo_();
+            //st3.CalculateGrade();
+            //st4.ShowInfo_();
+            //st4.CalculateGrade();
+            
+
         }
     }
 }
