@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>polymorphism.Final_Lab_Task_2C</StartupObject>
+    <StartupObject>polymorphism.Delegates</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -48,6 +48,7 @@
   <ItemGroup>
     <Compile Include="AbstractClass.cs" />
     <Compile Include="Banking_system_CODE_writing.cs" />
+    <Compile Include="Delegates.cs" />
     <Compile Include="Encapsulation.cs" />
     <Compile Include="Final_LAB_TASK_1.cs" />
     <Compile Include="Final_LAB_TASK_2.cs" />
@@ -56,7 +57,9 @@
     <Compile Include="Final_Lab_Task_2C.cs" />
     <Compile Include="Final_LAB_TASK_3.cs" />
     <Compile Include="Hierarchical_inheritence.cs" />
+    <Compile Include="Indexer.cs" />
     <Compile Include="Inheritence.cs" />
+    <Compile Include="Interface.cs" />
     <Compile Include="jaggedArray_Practice.cs" />
     <Compile Include="Jagged_ARRAY.cs" />
     <Compile Include="OutputTrace.cs" />
